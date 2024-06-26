@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { Footer } from "@/components/ui/footer";
+import React, { useState } from 'react';
 import {
   Card,
   CardContent,
