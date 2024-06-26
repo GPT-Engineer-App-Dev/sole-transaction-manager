@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Footer } from "@/components/ui/footer";
 import {
   Card,
   CardContent,
@@ -11,7 +12,6 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHeader, TableHead, TableRow } from "@/components/ui/table";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { Footer } from "@/components/ui/footer";
 
 const Index = () => {
   const [transactions, setTransactions] = useState([
