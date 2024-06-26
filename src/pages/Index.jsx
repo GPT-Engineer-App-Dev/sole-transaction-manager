@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from "@/components/ui/footer";
 import {
   Card,
   CardContent,
@@ -184,6 +185,7 @@ const Index = () => {
           </CardContent>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 };
